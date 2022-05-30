@@ -8,3 +8,15 @@ query {
         name
     }
 }
+
+### GraphQL introspection
+GRAPHQL http://localhost:8080/graphql
+Content-Type: application/graphql
+
+{
+    __schema {
+        types {
+            name
+        }
+    }
+}
