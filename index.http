@@ -1,0 +1,10 @@
+### GraphQL customers
+GRAPHQL http://localhost:8080/graphql
+Content-Type: application/graphql
+
+query {
+    customers {
+        id
+        name
+    }
+}
